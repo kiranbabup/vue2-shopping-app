@@ -2,8 +2,8 @@
     <div class="headerComponent">
         <span class="logo">ShoppingSite</span>
         <span class="loginSignupButtons">
-            <div @click="onLoginBtnClick()"><Button text="Login"></Button></div> /
-            <div @click="onRegisterBtnClick()"><Button text="Register"></Button></div>
+            <div @click="onLoginBtnClick"><Button text="Login" ></Button></div> /
+            <div @click="onRegisterBtnClick"><Button text="Register"></Button></div>
         </span>
     </div>
 </template>

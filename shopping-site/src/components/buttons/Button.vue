@@ -1,5 +1,5 @@
 <template>
-        <button>{{ text }}</button>
+    <div><button>{{ text }}</button></div>
 </template>
 <script>
 export default{
@@ -11,14 +11,17 @@ export default{
 button{
     border: none;
     background: none;
-    /* color: white; */
     font-weight: bold;
     background-color:white;
-    border-radius:50px;
+    border-radius:25px;
     padding:0px 10px;
+    height: 25px;
+    width: auto;
+    color: rgb(117, 117, 239);
+    cursor: pointer;
 }
 button:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: rgb(9, 69, 119);
 }
 </style>
